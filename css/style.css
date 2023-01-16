@@ -1,0 +1,100 @@
+/*? <===> Google Fonts Link below < Start >  <===> */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+/*? <===> Google Fonts Link Upper< /End >  <===> */
+
+
+/*! ????? Universal Selector or All Page CSS Effect <Start>  ?????  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+    font-style: normal;
+}
+
+/*! ????? Universal Selector or All Page CSS Effect </End>  ?????  */
+
+/** <////> CSS Variable Start  <\\\\> */
+:root {
+    --primary-color: #333333;
+    --secondery-color: #4F4F4F;
+    --white-color: #FFFFFF;
+}
+
+/** <////> CSS Variable End <\\\\> */
+
+/*! <><><?> Header Style Start <><><?>*/
+.logo {
+    font-family: 'Inconsolata';
+    margin: 50px 0 200px 240px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+/*! <><><?> Header Style End <><><?>*/
+
+/*! <><><?> Main Section Style Start <><><?>*/
+.banner {
+    margin: 0 230px 0 230px;
+    display: flex;
+    gap: 118px;
+}
+
+.left-side {
+    width: 540px;
+    height: 415px;
+}
+
+.left-side img {
+    width: 100%;
+}
+
+.banner-title {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: var(--primary-color);
+}
+
+.banner-description {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: var(--secondery-color);
+    padding: 36px 0 65px 0;
+}
+
+button {
+    padding: 25px 44px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+}
+
+/*! <><><?> Main Section Style End <><><?>*/
+
+/*! <><><?> Footer Section Style End <><><?>*/
+footer {
+    text-align: center;
+    padding: 200px 0 25px 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--secondery-color);
+}
+
+/*! <><><?> Footer Section Style End <><><?>*/
