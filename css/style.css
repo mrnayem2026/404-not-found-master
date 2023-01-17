@@ -98,3 +98,17 @@ footer {
 }
 
 /*! <><><?> Footer Section Style End <><><?>*/
+
+/*? <><><> Responsive for Mobile Device Start <><><>*/
+@media screen and (max-width:688px) {
+    .banner {
+        flex-direction: column;
+        margin: 64px 24px 114px 24px;
+    }
+
+    .logo {
+        margin: 50px 0 200px 34px;
+    }
+}
+
+/*? <><><> Responsive for Mobile Device End <><><>*/
